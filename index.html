@@ -3,7 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=S, initial-scale=1.0" />
-    <title>Hala Netflex</title>
+    <title>Hala Netflix</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!--Headder div container-->
+    <div class="Headdercontainer">
+      <!-- Netflex Logo -->
+      <div class="qq">
+        <img
+          src="./580b57fcd9996e24bc43c529.png"
+          alt="Netflix logo"
+          class="logoimagesetting"
+        />
+      </div>
+      <!--englis/arabic , sign in button-->
+      <div class="rightheader">
+        <select
+          class="langugeselectorbuttone"
+          onchange="changeLanguage(this.value)"
+        >
+          <option value="en">English</option>
+          <option value="es">العربيه</option>
+        </select>
+
+        <button class="signinbutton">sign in</button>
+      </div>
+    </div>
+    <!--end of container hedder-->
+
+    <!--main content container-->
+    <div class="main_content_containe">
+      <div class="main_content">
+        <h1>Unlimited movies, Tv shows, and more</h1>
+        <p style="font-size: 30px">Watch anywhere. Cancel anytime.</p>
+        <p style="font-size: 20px">
+          Ready to Watch? Enter your email to creat or restart your membership
+        </p>
+
+        <form>
+          <input type="email" placeholder="Email address" class="formsetting" />
+          <button class="getstartedbutton">Get started ></button>
+        </form>
+      </div>
+    </div>
+    <!--end of container main content-->
+  </body>
 </html>
